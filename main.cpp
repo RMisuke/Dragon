@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include <stdio.h>
+
 
 std::string  Player_Choose;
 //定义玩家数值
@@ -21,7 +21,6 @@ using namespace std;
 
 int main()//主函数
 {
-    printf("\033[01;34m Hello World!\033[0m\n ");
     cout << "Welcome to the Dragon's World!" << endl;
     cout << "请输入你的姓名" << endl;
     cin >> Player_Name;
