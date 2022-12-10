@@ -142,33 +142,6 @@ Dragon/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/build
 .PHONY : Dragon/fast
 
-BattleModel.o: BattleModel.cpp.o
-
-.PHONY : BattleModel.o
-
-# target to build an object file
-BattleModel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/BattleModel.cpp.o
-.PHONY : BattleModel.cpp.o
-
-BattleModel.i: BattleModel.cpp.i
-
-.PHONY : BattleModel.i
-
-# target to preprocess a source file
-BattleModel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/BattleModel.cpp.i
-.PHONY : BattleModel.cpp.i
-
-BattleModel.s: BattleModel.cpp.s
-
-.PHONY : BattleModel.s
-
-# target to generate assembly for a file
-BattleModel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/BattleModel.cpp.s
-.PHONY : BattleModel.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -205,9 +178,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Dragon"
-	@echo "... BattleModel.o"
-	@echo "... BattleModel.i"
-	@echo "... BattleModel.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
