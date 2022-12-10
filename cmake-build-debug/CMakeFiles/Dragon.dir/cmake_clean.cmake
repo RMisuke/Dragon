@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Dragon.dir/BattleModel.cpp.o"
   "CMakeFiles/Dragon.dir/main.cpp.o"
   "Dragon"
   "Dragon.pdb"
