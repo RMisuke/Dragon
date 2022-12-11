@@ -8,6 +8,38 @@
 
 /Users/Snow/CLionProjects/Dragon/include/allvariables.h
 
+/Users/Snow/CLionProjects/Dragon/include/data_operate.cpp
+iostream
+-
+string
+-
+fstream
+-
+json.h
+/Users/Snow/CLionProjects/Dragon/include/json.h
+allvariables.h
+/Users/Snow/CLionProjects/Dragon/include/allvariables.h
+data_operate.h
+/Users/Snow/CLionProjects/Dragon/include/data_operate.h
+
+/Users/Snow/CLionProjects/Dragon/include/data_operate.h
+
+/Users/Snow/CLionProjects/Dragon/include/init_all.cpp
+iostream
+-
+string
+-
+fstream
+-
+json.h
+/Users/Snow/CLionProjects/Dragon/include/json.h
+init_all.h
+/Users/Snow/CLionProjects/Dragon/include/init_all.h
+allvariables.h
+/Users/Snow/CLionProjects/Dragon/include/allvariables.h
+
+/Users/Snow/CLionProjects/Dragon/include/init_all.h
+
 /Users/Snow/CLionProjects/Dragon/include/json.h
 json/config.h
 /Users/Snow/CLionProjects/Dragon/include/json/config.h
@@ -25,14 +57,6 @@ cstring
 -
 memory
 -
-
-/Users/Snow/CLionProjects/Dragon/include/json/assertions.h
-cstdlib
--
-sstream
--
-config.h
-/Users/Snow/CLionProjects/Dragon/include/json/config.h
 
 /Users/Snow/CLionProjects/Dragon/include/json/config.h
 cstddef
@@ -108,45 +132,29 @@ string
 vector
 -
 
-/Users/Snow/CLionProjects/Dragon/include/json_reader.cpp
-json_tool.h
-/Users/Snow/CLionProjects/Dragon/include/json_tool.h
-json/assertions.h
-/Users/Snow/CLionProjects/Dragon/include/json/assertions.h
-json/reader.h
-/Users/Snow/CLionProjects/Dragon/include/json/reader.h
-json/value.h
-/Users/Snow/CLionProjects/Dragon/include/json/value.h
-algorithm
--
-cassert
--
-cstring
--
+/Users/Snow/CLionProjects/Dragon/include/random.cpp
 iostream
 -
-istream
+ctime
 -
-limits
+cstdlib
 -
-memory
--
-set
--
-sstream
--
-utility
--
-cstdio
--
-
-/Users/Snow/CLionProjects/Dragon/include/json_tool.h
-json/config.h
-/Users/Snow/CLionProjects/Dragon/include/json/config.h
-clocale
--
+random.h
+/Users/Snow/CLionProjects/Dragon/include/random.h
+allvariables.h
+/Users/Snow/CLionProjects/Dragon/include/allvariables.h
 
 /Users/Snow/CLionProjects/Dragon/include/random.h
+
+/Users/Snow/CLionProjects/Dragon/include/register.cpp
+iostream
+-
+string
+-
+register.h
+/Users/Snow/CLionProjects/Dragon/include/register.h
+allvariables.h
+/Users/Snow/CLionProjects/Dragon/include/allvariables.h
 
 /Users/Snow/CLionProjects/Dragon/include/register.h
 
@@ -165,4 +173,6 @@ include/random.h
 /Users/Snow/CLionProjects/Dragon/include/random.h
 include/json.h
 /Users/Snow/CLionProjects/Dragon/include/json.h
+include/data_operate.h
+/Users/Snow/CLionProjects/Dragon/include/data_operate.h
 

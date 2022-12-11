@@ -17,6 +17,7 @@ int Player_PD = 1;
 int Player_MD = 1;
 int Player_SD = 1;
 int Player_MY = 10;
+int Player_EXP = 0;
 int Player_Level = 1;
 string Player_Name = "None";
 string Player_Job = "None";
@@ -27,7 +28,7 @@ void Job_Choose();
 
 void Register()//注册函数段
 {
-    cout<<"监测到你还没有注册，开始进入注册模块！"<<endl;
+    cout<<"检测到你还没有注册，开始进入注册模块！"<<endl;
     cout<<"请输入你的ID："<<endl;
     cin >>Player_Name;
     cout<<"好的"<<Player_Name<<endl;

@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/Snow/CLionProjects/Dragon/include/data_operate.cpp" "/Users/Snow/CLionProjects/Dragon/cmake-build-debug/CMakeFiles/Dragon.dir/include/data_operate.cpp.o"
   "/Users/Snow/CLionProjects/Dragon/include/json_reader.cpp" "/Users/Snow/CLionProjects/Dragon/cmake-build-debug/CMakeFiles/Dragon.dir/include/json_reader.cpp.o"
   "/Users/Snow/CLionProjects/Dragon/include/json_value.cpp" "/Users/Snow/CLionProjects/Dragon/cmake-build-debug/CMakeFiles/Dragon.dir/include/json_value.cpp.o"
   "/Users/Snow/CLionProjects/Dragon/include/json_writer.cpp" "/Users/Snow/CLionProjects/Dragon/cmake-build-debug/CMakeFiles/Dragon.dir/include/json_writer.cpp.o"

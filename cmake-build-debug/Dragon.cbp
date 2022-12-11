@@ -81,10 +81,13 @@
 		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/allvariables.h">
 			<Option target="Dragon"/>
 		</Unit>
-		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/json.h">
+		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/data_operate.cpp">
 			<Option target="Dragon"/>
 		</Unit>
-		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/json_features.h">
+		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/data_operate.h">
+			<Option target="Dragon"/>
+		</Unit>
+		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/json.h">
 			<Option target="Dragon"/>
 		</Unit>
 		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/json_reader.cpp">

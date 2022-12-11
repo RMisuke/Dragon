@@ -142,6 +142,33 @@ Dragon/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/build
 .PHONY : Dragon/fast
 
+include/data_operate.o: include/data_operate.cpp.o
+
+.PHONY : include/data_operate.o
+
+# target to build an object file
+include/data_operate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/data_operate.cpp.o
+.PHONY : include/data_operate.cpp.o
+
+include/data_operate.i: include/data_operate.cpp.i
+
+.PHONY : include/data_operate.i
+
+# target to preprocess a source file
+include/data_operate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/data_operate.cpp.i
+.PHONY : include/data_operate.cpp.i
+
+include/data_operate.s: include/data_operate.cpp.s
+
+.PHONY : include/data_operate.s
+
+# target to generate assembly for a file
+include/data_operate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/data_operate.cpp.s
+.PHONY : include/data_operate.cpp.s
+
 include/json_reader.o: include/json_reader.cpp.o
 
 .PHONY : include/json_reader.o
@@ -313,6 +340,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Dragon"
+	@echo "... include/data_operate.o"
+	@echo "... include/data_operate.i"
+	@echo "... include/data_operate.s"
 	@echo "... include/json_reader.o"
 	@echo "... include/json_reader.i"
 	@echo "... include/json_reader.s"
