@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>register.cpp</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #7f848e;}
+.s1 { color: #abb2bf;}
+.s2 { color: #56b6c2;}
+.s3 { color: #e6c07b;}
+.s4 { color: #9da5b4;}
+.s5 { color: #c678dd;}
+.s6 { color: #e06c75;}
+</style>
+</head>
+<body bgcolor="#282c34">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+register.cpp</font>
+</center></td></tr></table>
+<pre><span class="s0">/* 
+ Created by Snow 
+ Register Model v0.1 Alpha Preview 
+*/</span>
+<span class="s2">#include </span><span class="s3">&lt;iostream&gt;</span>
+<span class="s2">#include </span><span class="s3">&lt;string&gt;</span>
+<span class="s2">#include </span><span class="s3">&quot;../include/register.h&quot;</span>
+<span class="s2">#include </span><span class="s3">&quot;../include/allvariables.h&quot;</span>
+
+<span class="s1">string Player_Job_List </span><span class="s4">[</span><span class="s5">4</span><span class="s4">] {</span><span class="s3">&quot;剑士&quot;</span><span class="s4">,</span><span class="s3">&quot;弓箭手&quot;</span><span class="s4">,</span><span class="s3">&quot;魔法师&quot;</span><span class="s4">,</span><span class="s3">&quot;狂战士&quot;</span><span class="s4">} ;</span>
+
+<span class="s6">int </span><span class="s1">Player_HP </span><span class="s6">= </span><span class="s5">1</span><span class="s4">;</span>
+<span class="s6">int </span><span class="s1">Player_MP </span><span class="s6">= </span><span class="s5">1</span><span class="s4">;</span>
+<span class="s6">int </span><span class="s1">Player_PA </span><span class="s6">= </span><span class="s5">1</span><span class="s4">;</span>
+<span class="s6">int </span><span class="s1">Player_MA </span><span class="s6">= </span><span class="s5">1</span><span class="s4">;</span>
+<span class="s6">int </span><span class="s1">Player_PD </span><span class="s6">= </span><span class="s5">1</span><span class="s4">;</span>
+<span class="s6">int </span><span class="s1">Player_MD </span><span class="s6">= </span><span class="s5">1</span><span class="s4">;</span>
+<span class="s6">int </span><span class="s1">Player_SD </span><span class="s6">= </span><span class="s5">1</span><span class="s4">;</span>
+<span class="s6">int </span><span class="s1">Player_MY </span><span class="s6">= </span><span class="s5">10</span><span class="s4">;</span>
+<span class="s6">int </span><span class="s1">Player_Level </span><span class="s6">= </span><span class="s5">1</span><span class="s4">;</span>
+<span class="s1">string Player_Name </span><span class="s6">= </span><span class="s3">&quot;None&quot;</span><span class="s4">;</span>
+<span class="s1">string Player_Job </span><span class="s6">= </span><span class="s3">&quot;None&quot;</span><span class="s4">;</span>
+
+<span class="s6">bool </span><span class="s1">Point_Return</span><span class="s6">= false</span><span class="s4">;</span>
+<span class="s6">void </span><span class="s1">Player_Point</span><span class="s4">();</span>
+<span class="s6">void </span><span class="s1">Job_Choose</span><span class="s4">();</span>
+
+<span class="s6">void </span><span class="s1">Register</span><span class="s4">()</span>
+<span class="s4">{</span>
+    <span class="s1">cout</span><span class="s6">&lt;&lt;</span><span class="s3">&quot;监测到你还没有注册，开始进入注册模块！&quot;</span><span class="s6">&lt;&lt;</span><span class="s1">endl</span><span class="s4">;</span>
+    <span class="s1">cout</span><span class="s6">&lt;&lt;</span><span class="s3">&quot;请输入你的ID：&quot;</span><span class="s6">&lt;&lt;</span><span class="s1">endl</span><span class="s4">;</span>
+    <span class="s1">cin </span><span class="s6">&gt;&gt;</span><span class="s1">Player_Name</span><span class="s4">;</span>
+    <span class="s1">cout</span><span class="s6">&lt;&lt;</span><span class="s3">&quot;好的&quot;</span><span class="s6">&lt;&lt;</span><span class="s1">Player_Name</span><span class="s6">&lt;&lt;</span><span class="s1">endl</span><span class="s4">;</span>
+    <span class="s6">while </span><span class="s4">(</span><span class="s1">Point_Return </span><span class="s6">== false</span><span class="s4">)</span>
+    <span class="s4">{</span>
+        <span class="s1">Job_Choose</span><span class="s4">();</span>
+        <span class="s1">Player_Point</span><span class="s4">();</span>
+    <span class="s4">}</span>
+    <span class="s1">cout</span><span class="s6">&lt;&lt;</span><span class="s1">Player_Name</span><span class="s6">&lt;&lt;</span><span class="s3">&quot;你选择了: &quot;</span><span class="s6">&lt;&lt;</span><span class="s1">Player_Job</span><span class="s6">&lt;&lt;</span><span class="s1">endl</span>
+    <span class="s6">&lt;&lt;</span><span class="s3">&quot;｜等级：&quot;</span><span class="s6">&lt;&lt;</span><span class="s1">Player_Level</span><span class="s6">&lt;&lt;</span><span class="s3">&quot;｜金钱：&quot;</span><span class="s6">&lt;&lt;</span><span class="s1">Player_MY</span><span class="s6">&lt;&lt;</span><span class="s1">endl</span>
+    <span class="s6">&lt;&lt;</span><span class="s3">&quot;｜生命：&quot;</span><span class="s6">&lt;&lt;</span><span class="s1">Player_HP</span><span class="s6">&lt;&lt;</span><span class="s3">&quot;｜法力：&quot;</span><span class="s6">&lt;&lt;</span><span class="s1">Player_MP</span><span class="s6">&lt;&lt;</span><span class="s1">endl</span>
+    <span class="s6">&lt;&lt;</span><span class="s3">&quot;｜玩家速度：&quot;</span><span class="s6">&lt;&lt;</span><span class="s1">Player_SD</span><span class="s6">&lt;&lt;</span><span class="s1">endl</span>
+    <span class="s6">&lt;&lt;</span><span class="s3">&quot;｜物理攻击：&quot;</span><span class="s6">&lt;&lt;</span><span class="s1">Player_PA</span><span class="s6">&lt;&lt;</span><span class="s3">&quot;|法术攻击：&quot;</span><span class="s6">&lt;&lt;</span><span class="s1">Player_MA</span><span class="s6">&lt;&lt;</span><span class="s1">endl</span>
+    <span class="s6">&lt;&lt;</span><span class="s3">&quot;｜物理防御：&quot;</span><span class="s6">&lt;&lt;</span><span class="s1">Player_PD</span><span class="s6">&lt;&lt;</span><span class="s3">&quot;|法术防御：&quot;</span><span class="s6">&lt;&lt;</span><span class="s1">Player_MD</span><span class="s6">&lt;&lt;</span><span class="s1">endl</span><span class="s4">;</span>
+    <span class="s1">cout</span><span class="s6">&lt;&lt;</span><span class="s3">&quot;注册完毕!&quot;</span><span class="s6">&lt;&lt;</span><span class="s1">endl</span><span class="s4">;</span>
+    <span class="s6">bool </span><span class="s1">Player_State </span><span class="s6">=true</span><span class="s4">;</span>
+<span class="s4">}</span>
+
+<span class="s6">void </span><span class="s1">Job_Choose</span><span class="s4">()</span>
+<span class="s4">{</span>
+    <span class="s1">cout</span><span class="s6">&lt;&lt;</span><span class="s3">&quot;请选择你的职业：&quot;</span><span class="s6">&lt;&lt;</span><span class="s1">endl</span><span class="s6">&lt;&lt;</span><span class="s1">Player_Job_List</span><span class="s4">[</span><span class="s5">0</span><span class="s4">]</span><span class="s6">&lt;&lt;</span><span class="s3">&quot;|&quot;</span><span class="s6">&lt;&lt;</span><span class="s1">Player_Job_List</span><span class="s4">[</span><span class="s5">1</span><span class="s4">]</span><span class="s6">&lt;&lt;</span><span class="s3">&quot;|&quot;</span>
+        <span class="s6">&lt;&lt;</span><span class="s1">Player_Job_List</span><span class="s4">[</span><span class="s5">2</span><span class="s4">]</span><span class="s6">&lt;&lt;</span><span class="s3">&quot;|&quot;</span><span class="s6">&lt;&lt;</span><span class="s1">Player_Job_List</span><span class="s4">[</span><span class="s5">3</span><span class="s4">]</span><span class="s6">&lt;&lt;</span><span class="s1">endl</span><span class="s4">;</span>
+    <span class="s1">cin </span><span class="s6">&gt;&gt;</span><span class="s1">Player_Job</span><span class="s4">;</span>
+<span class="s4">}</span>
+
+<span class="s6">void </span><span class="s1">Player_Point</span><span class="s4">()</span>
+<span class="s4">{</span>
+    <span class="s6">if </span><span class="s4">(</span><span class="s1">Player_Job </span><span class="s6">== </span><span class="s1">Player_Job_List</span><span class="s4">[</span><span class="s5">0</span><span class="s4">])</span><span class="s0">//剑士基础数值设置</span>
+    <span class="s4">{</span>
+         <span class="s1">Player_HP </span><span class="s6">= </span><span class="s5">20</span><span class="s4">;</span>
+         <span class="s1">Player_MP </span><span class="s6">= </span><span class="s5">15</span><span class="s4">;</span>
+         <span class="s1">Player_PA </span><span class="s6">= </span><span class="s5">20</span><span class="s4">;</span>
+         <span class="s1">Player_MA </span><span class="s6">= </span><span class="s5">10</span><span class="s4">;</span>
+         <span class="s1">Player_PD </span><span class="s6">= </span><span class="s5">15</span><span class="s4">;</span>
+         <span class="s1">Player_MD </span><span class="s6">= </span><span class="s5">10</span><span class="s4">;</span>
+         <span class="s1">Player_SD </span><span class="s6">= </span><span class="s5">10</span><span class="s4">;</span>
+         <span class="s1">Point_Return </span><span class="s6">= true</span><span class="s4">;</span>
+    <span class="s4">}</span>
+    <span class="s6">else if </span><span class="s4">(</span><span class="s1">Player_Job </span><span class="s6">== </span><span class="s1">Player_Job_List</span><span class="s4">[</span><span class="s5">1</span><span class="s4">])</span><span class="s0">//弓箭手基础数值设置</span>
+    <span class="s4">{</span>
+         <span class="s1">Player_HP </span><span class="s6">= </span><span class="s5">15</span><span class="s4">;</span>
+         <span class="s1">Player_MP </span><span class="s6">= </span><span class="s5">20</span><span class="s4">;</span>
+         <span class="s1">Player_PA </span><span class="s6">= </span><span class="s5">15</span><span class="s4">;</span>
+         <span class="s1">Player_MA </span><span class="s6">= </span><span class="s5">15</span><span class="s4">;</span>
+         <span class="s1">Player_PD </span><span class="s6">= </span><span class="s5">10</span><span class="s4">;</span>
+         <span class="s1">Player_MD </span><span class="s6">= </span><span class="s5">10</span><span class="s4">;</span>
+         <span class="s1">Player_SD </span><span class="s6">= </span><span class="s5">20</span><span class="s4">;</span>
+         <span class="s1">Point_Return </span><span class="s6">= true</span><span class="s4">;</span>
+    <span class="s4">}</span>
+    <span class="s6">else if </span><span class="s4">(</span><span class="s1">Player_Job </span><span class="s6">== </span><span class="s1">Player_Job_List</span><span class="s4">[</span><span class="s5">2</span><span class="s4">])</span><span class="s0">//魔法师基础数值设置</span>
+    <span class="s4">{</span>
+         <span class="s1">Player_HP </span><span class="s6">= </span><span class="s5">15</span><span class="s4">;</span>
+         <span class="s1">Player_MP </span><span class="s6">= </span><span class="s5">30</span><span class="s4">;</span>
+         <span class="s1">Player_PA </span><span class="s6">= </span><span class="s5">7</span><span class="s4">;</span>
+         <span class="s1">Player_MA </span><span class="s6">= </span><span class="s5">25</span><span class="s4">;</span>
+         <span class="s1">Player_PD </span><span class="s6">= </span><span class="s5">10</span><span class="s4">;</span>
+         <span class="s1">Player_MD </span><span class="s6">= </span><span class="s5">15</span><span class="s4">;</span>
+         <span class="s1">Player_SD </span><span class="s6">= </span><span class="s5">10</span><span class="s4">;</span>
+         <span class="s1">Point_Return </span><span class="s6">= true</span><span class="s4">;</span>
+    <span class="s4">}</span>
+    <span class="s6">else if </span><span class="s4">(</span><span class="s1">Player_Job </span><span class="s6">== </span><span class="s1">Player_Job_List</span><span class="s4">[</span><span class="s5">3</span><span class="s4">])</span><span class="s0">//狂战士基础数值设置</span>
+    <span class="s4">{</span>
+         <span class="s1">Player_HP </span><span class="s6">= </span><span class="s5">30</span><span class="s4">;</span>
+         <span class="s1">Player_MP </span><span class="s6">= </span><span class="s5">8</span><span class="s4">;</span>
+         <span class="s1">Player_PA </span><span class="s6">= </span><span class="s5">25</span><span class="s4">;</span>
+         <span class="s1">Player_MA </span><span class="s6">= </span><span class="s5">7</span><span class="s4">;</span>
+         <span class="s1">Player_PD </span><span class="s6">= </span><span class="s5">20</span><span class="s4">;</span>
+         <span class="s1">Player_MD </span><span class="s6">= </span><span class="s5">7</span><span class="s4">;</span>
+         <span class="s1">Player_SD </span><span class="s6">= </span><span class="s5">5</span><span class="s4">;</span>
+         <span class="s1">Point_Return </span><span class="s6">= true</span><span class="s4">;</span>
+    <span class="s4">}</span>
+    <span class="s6">else</span>
+    <span class="s4">{</span>
+        <span class="s1">Point_Return </span><span class="s6">= false</span><span class="s4">;</span>
+    <span class="s4">}</span>
+    <span class="s4">}</span>
+</pre>
+</body>
+</html>

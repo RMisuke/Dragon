@@ -5,6 +5,7 @@
 #ifndef DRAGON_ALLVARIABLES_H
 #define DRAGON_ALLVARIABLES_H
 using namespace std;
+
 //玩家姓名和玩家职业
 
 extern string Player_Name,Player_Job;//玩家数值

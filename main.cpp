@@ -7,8 +7,8 @@
 #include "include/allvariables.h"
 #include "include/register.h"
 #include "include/random.h"
+#include "include/json.h"
 
-using namespace std;
 
 bool Player_State = false;
 

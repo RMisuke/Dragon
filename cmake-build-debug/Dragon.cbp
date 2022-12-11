@@ -81,6 +81,21 @@
 		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/allvariables.h">
 			<Option target="Dragon"/>
 		</Unit>
+		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/json.h">
+			<Option target="Dragon"/>
+		</Unit>
+		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/json_features.h">
+			<Option target="Dragon"/>
+		</Unit>
+		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/json_reader.cpp">
+			<Option target="Dragon"/>
+		</Unit>
+		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/json_value.cpp">
+			<Option target="Dragon"/>
+		</Unit>
+		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/json_writer.cpp">
+			<Option target="Dragon"/>
+		</Unit>
 		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/random.cpp">
 			<Option target="Dragon"/>
 		</Unit>

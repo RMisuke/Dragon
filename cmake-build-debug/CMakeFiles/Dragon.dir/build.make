@@ -115,11 +115,53 @@ CMakeFiles/Dragon.dir/include/random.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dragon.dir/include/random.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Snow/CLionProjects/Dragon/include/random.cpp -o CMakeFiles/Dragon.dir/include/random.cpp.s
 
+CMakeFiles/Dragon.dir/include/json_writer.cpp.o: CMakeFiles/Dragon.dir/flags.make
+CMakeFiles/Dragon.dir/include/json_writer.cpp.o: ../include/json_writer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Snow/CLionProjects/Dragon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Dragon.dir/include/json_writer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dragon.dir/include/json_writer.cpp.o -c /Users/Snow/CLionProjects/Dragon/include/json_writer.cpp
+
+CMakeFiles/Dragon.dir/include/json_writer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dragon.dir/include/json_writer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Snow/CLionProjects/Dragon/include/json_writer.cpp > CMakeFiles/Dragon.dir/include/json_writer.cpp.i
+
+CMakeFiles/Dragon.dir/include/json_writer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dragon.dir/include/json_writer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Snow/CLionProjects/Dragon/include/json_writer.cpp -o CMakeFiles/Dragon.dir/include/json_writer.cpp.s
+
+CMakeFiles/Dragon.dir/include/json_reader.cpp.o: CMakeFiles/Dragon.dir/flags.make
+CMakeFiles/Dragon.dir/include/json_reader.cpp.o: ../include/json_reader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Snow/CLionProjects/Dragon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Dragon.dir/include/json_reader.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dragon.dir/include/json_reader.cpp.o -c /Users/Snow/CLionProjects/Dragon/include/json_reader.cpp
+
+CMakeFiles/Dragon.dir/include/json_reader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dragon.dir/include/json_reader.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Snow/CLionProjects/Dragon/include/json_reader.cpp > CMakeFiles/Dragon.dir/include/json_reader.cpp.i
+
+CMakeFiles/Dragon.dir/include/json_reader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dragon.dir/include/json_reader.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Snow/CLionProjects/Dragon/include/json_reader.cpp -o CMakeFiles/Dragon.dir/include/json_reader.cpp.s
+
+CMakeFiles/Dragon.dir/include/json_value.cpp.o: CMakeFiles/Dragon.dir/flags.make
+CMakeFiles/Dragon.dir/include/json_value.cpp.o: ../include/json_value.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Snow/CLionProjects/Dragon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Dragon.dir/include/json_value.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dragon.dir/include/json_value.cpp.o -c /Users/Snow/CLionProjects/Dragon/include/json_value.cpp
+
+CMakeFiles/Dragon.dir/include/json_value.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dragon.dir/include/json_value.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Snow/CLionProjects/Dragon/include/json_value.cpp > CMakeFiles/Dragon.dir/include/json_value.cpp.i
+
+CMakeFiles/Dragon.dir/include/json_value.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dragon.dir/include/json_value.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Snow/CLionProjects/Dragon/include/json_value.cpp -o CMakeFiles/Dragon.dir/include/json_value.cpp.s
+
 # Object files for target Dragon
 Dragon_OBJECTS = \
 "CMakeFiles/Dragon.dir/main.cpp.o" \
 "CMakeFiles/Dragon.dir/include/register.cpp.o" \
-"CMakeFiles/Dragon.dir/include/random.cpp.o"
+"CMakeFiles/Dragon.dir/include/random.cpp.o" \
+"CMakeFiles/Dragon.dir/include/json_writer.cpp.o" \
+"CMakeFiles/Dragon.dir/include/json_reader.cpp.o" \
+"CMakeFiles/Dragon.dir/include/json_value.cpp.o"
 
 # External object files for target Dragon
 Dragon_EXTERNAL_OBJECTS =
@@ -127,9 +169,12 @@ Dragon_EXTERNAL_OBJECTS =
 Dragon: CMakeFiles/Dragon.dir/main.cpp.o
 Dragon: CMakeFiles/Dragon.dir/include/register.cpp.o
 Dragon: CMakeFiles/Dragon.dir/include/random.cpp.o
+Dragon: CMakeFiles/Dragon.dir/include/json_writer.cpp.o
+Dragon: CMakeFiles/Dragon.dir/include/json_reader.cpp.o
+Dragon: CMakeFiles/Dragon.dir/include/json_value.cpp.o
 Dragon: CMakeFiles/Dragon.dir/build.make
 Dragon: CMakeFiles/Dragon.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Snow/CLionProjects/Dragon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Dragon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Snow/CLionProjects/Dragon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Dragon"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Dragon.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

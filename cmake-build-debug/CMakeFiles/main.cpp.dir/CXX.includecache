@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Snow/CLionProjects/Dragon/include/allvariables.h
+
+/Users/Snow/CLionProjects/Dragon/include/register.h
+
+/Users/Snow/CLionProjects/Dragon/library/register.cpp
+iostream
+-
+string
+-
+../include/register.h
+/Users/Snow/CLionProjects/Dragon/include/register.h
+../include/allvariables.h
+/Users/Snow/CLionProjects/Dragon/include/allvariables.h
+
