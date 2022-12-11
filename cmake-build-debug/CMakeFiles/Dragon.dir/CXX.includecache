@@ -20,15 +20,3 @@ string
 ../include/allvariables.h
 /Users/Snow/CLionProjects/Dragon/include/allvariables.h
 
-/Users/Snow/CLionProjects/Dragon/main.cpp
-iostream
--
-string
--
-list
--
-include/allvariables.h
-/Users/Snow/CLionProjects/Dragon/include/allvariables.h
-include/register.h
-/Users/Snow/CLionProjects/Dragon/include/register.h
-
