@@ -1,11 +1,14 @@
-//Dragon v0.1 Alpha
-//By Snow
-
+/*Dragon v0.1 Alpha
+  By Snow
+*/
 #include <iostream>
 #include <string>
 #include <list>
 #include "include/allvariables.h"
 #include "include/register.h"
+#include "include/random.h"
+
+using namespace std;
 
 bool Player_State = false;
 
@@ -16,5 +19,6 @@ int main()
     {
         Register();
         cout<<"返回主函数"<<endl;
+
     }
 }

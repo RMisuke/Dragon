@@ -142,32 +142,59 @@ Dragon/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/build
 .PHONY : Dragon/fast
 
-library/register.o: library/register.cpp.o
+include/random.o: include/random.cpp.o
 
-.PHONY : library/register.o
+.PHONY : include/random.o
 
 # target to build an object file
-library/register.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/library/register.cpp.o
-.PHONY : library/register.cpp.o
+include/random.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/random.cpp.o
+.PHONY : include/random.cpp.o
 
-library/register.i: library/register.cpp.i
+include/random.i: include/random.cpp.i
 
-.PHONY : library/register.i
+.PHONY : include/random.i
 
 # target to preprocess a source file
-library/register.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/library/register.cpp.i
-.PHONY : library/register.cpp.i
+include/random.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/random.cpp.i
+.PHONY : include/random.cpp.i
 
-library/register.s: library/register.cpp.s
+include/random.s: include/random.cpp.s
 
-.PHONY : library/register.s
+.PHONY : include/random.s
 
 # target to generate assembly for a file
-library/register.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/library/register.cpp.s
-.PHONY : library/register.cpp.s
+include/random.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/random.cpp.s
+.PHONY : include/random.cpp.s
+
+include/register.o: include/register.cpp.o
+
+.PHONY : include/register.o
+
+# target to build an object file
+include/register.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/register.cpp.o
+.PHONY : include/register.cpp.o
+
+include/register.i: include/register.cpp.i
+
+.PHONY : include/register.i
+
+# target to preprocess a source file
+include/register.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/register.cpp.i
+.PHONY : include/register.cpp.i
+
+include/register.s: include/register.cpp.s
+
+.PHONY : include/register.s
+
+# target to generate assembly for a file
+include/register.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/register.cpp.s
+.PHONY : include/register.cpp.s
 
 main.o: main.cpp.o
 
@@ -205,9 +232,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Dragon"
-	@echo "... library/register.o"
-	@echo "... library/register.i"
-	@echo "... library/register.s"
+	@echo "... include/random.o"
+	@echo "... include/random.i"
+	@echo "... include/random.s"
+	@echo "... include/register.o"
+	@echo "... include/register.i"
+	@echo "... include/register.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,13 +1,14 @@
-//
-// Created by Chensinuo on 2022/12/10.
-//
+/*
+ Created by Snow
+ Register Model v0.1 Alpha Preview
+*/
 #include <iostream>
 #include <string>
-#include "../include/register.h"
-#include "../include/allvariables.h"
+#include "register.h"
+#include "allvariables.h"
 
 string Player_Job_List [4] {"剑士","弓箭手","魔法师","狂战士"} ;
-
+//初始化玩家数值
 int Player_HP = 1;
 int Player_MP = 1;
 int Player_PA = 1;
@@ -19,12 +20,12 @@ int Player_MY = 10;
 int Player_Level = 1;
 string Player_Name = "None";
 string Player_Job = "None";
-
 bool Point_Return= false;
+//定义函数
 void Player_Point();
 void Job_Choose();
 
-void Register()
+void Register()//注册函数段
 {
     cout<<"监测到你还没有注册，开始进入注册模块！"<<endl;
     cout<<"请输入你的ID："<<endl;
@@ -101,5 +102,6 @@ void Player_Point()
     else
     {
         Point_Return = false;
+        cout<<"错误！请输入正确的职业名称！"<<endl;
     }
     }

@@ -8,15 +8,31 @@
 
 /Users/Snow/CLionProjects/Dragon/include/allvariables.h
 
-/Users/Snow/CLionProjects/Dragon/include/register.h
+/Users/Snow/CLionProjects/Dragon/include/random.h
 
-/Users/Snow/CLionProjects/Dragon/library/register.cpp
+/Users/Snow/CLionProjects/Dragon/include/register.cpp
 iostream
 -
 string
 -
-../include/register.h
+register.h
 /Users/Snow/CLionProjects/Dragon/include/register.h
-../include/allvariables.h
+allvariables.h
 /Users/Snow/CLionProjects/Dragon/include/allvariables.h
+
+/Users/Snow/CLionProjects/Dragon/include/register.h
+
+/Users/Snow/CLionProjects/Dragon/main.cpp
+iostream
+-
+string
+-
+list
+-
+include/allvariables.h
+/Users/Snow/CLionProjects/Dragon/include/allvariables.h
+include/register.h
+/Users/Snow/CLionProjects/Dragon/include/register.h
+include/random.h
+/Users/Snow/CLionProjects/Dragon/include/random.h
 

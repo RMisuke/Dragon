@@ -81,10 +81,16 @@
 		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/allvariables.h">
 			<Option target="Dragon"/>
 		</Unit>
-		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/register.h">
+		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/random.cpp">
 			<Option target="Dragon"/>
 		</Unit>
-		<Unit filename="/Users/Snow/CLionProjects/Dragon/library/register.cpp">
+		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/random.h">
+			<Option target="Dragon"/>
+		</Unit>
+		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/register.cpp">
+			<Option target="Dragon"/>
+		</Unit>
+		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/register.h">
 			<Option target="Dragon"/>
 		</Unit>
 		<Unit filename="/Users/Snow/CLionProjects/Dragon/main.cpp">

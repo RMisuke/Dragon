@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Dragon.dir/library/register.cpp.o"
+  "CMakeFiles/Dragon.dir/include/random.cpp.o"
+  "CMakeFiles/Dragon.dir/include/register.cpp.o"
   "CMakeFiles/Dragon.dir/main.cpp.o"
   "Dragon"
   "Dragon.pdb"

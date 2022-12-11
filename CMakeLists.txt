@@ -4,5 +4,5 @@ project(Dragon)
 set(CMAKE_CXX_STANDARD 17)
 
 
-add_executable(Dragon main.cpp include/allvariables.h include/register.h library/register.cpp)
+add_executable(Dragon main.cpp include/allvariables.h include/register.h include/register.cpp include/random.cpp include/random.h)
 
