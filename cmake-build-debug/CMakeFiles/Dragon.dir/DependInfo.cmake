@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/Snow/CLionProjects/Dragon/BattleModel.cpp" "/Users/Snow/CLionProjects/Dragon/cmake-build-debug/CMakeFiles/Dragon.dir/BattleModel.cpp.o"
+  "/Users/Snow/CLionProjects/Dragon/library/register.cpp" "/Users/Snow/CLionProjects/Dragon/cmake-build-debug/CMakeFiles/Dragon.dir/library/register.cpp.o"
   "/Users/Snow/CLionProjects/Dragon/main.cpp" "/Users/Snow/CLionProjects/Dragon/cmake-build-debug/CMakeFiles/Dragon.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

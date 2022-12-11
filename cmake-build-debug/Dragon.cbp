@@ -78,13 +78,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Snow/CLionProjects/Dragon/AllVariable.h">
+		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/allvariables.h">
 			<Option target="Dragon"/>
 		</Unit>
-		<Unit filename="/Users/Snow/CLionProjects/Dragon/BattleModel.cpp">
+		<Unit filename="/Users/Snow/CLionProjects/Dragon/include/register.h">
 			<Option target="Dragon"/>
 		</Unit>
-		<Unit filename="/Users/Snow/CLionProjects/Dragon/BattleModel.h">
+		<Unit filename="/Users/Snow/CLionProjects/Dragon/library/register.cpp">
 			<Option target="Dragon"/>
 		</Unit>
 		<Unit filename="/Users/Snow/CLionProjects/Dragon/main.cpp">

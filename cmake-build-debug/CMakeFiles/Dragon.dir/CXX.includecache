@@ -6,19 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/Snow/CLionProjects/Dragon/AllVariable.h
+/Users/Snow/CLionProjects/Dragon/include/allvariables.h
 
-/Users/Snow/CLionProjects/Dragon/BattleModel.h
+/Users/Snow/CLionProjects/Dragon/include/register.h
+
+/Users/Snow/CLionProjects/Dragon/library/register.cpp
+iostream
+-
+string
+-
+../include/register.h
+/Users/Snow/CLionProjects/Dragon/include/register.h
+../include/allvariables.h
+/Users/Snow/CLionProjects/Dragon/include/allvariables.h
 
 /Users/Snow/CLionProjects/Dragon/main.cpp
 iostream
 -
-cstdlib
+string
 -
-ctime
+list
 -
-AllVariable.h
-/Users/Snow/CLionProjects/Dragon/AllVariable.h
-BattleModel.h
-/Users/Snow/CLionProjects/Dragon/BattleModel.h
+include/allvariables.h
+/Users/Snow/CLionProjects/Dragon/include/allvariables.h
+include/register.h
+/Users/Snow/CLionProjects/Dragon/include/register.h
 

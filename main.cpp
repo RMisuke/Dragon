@@ -1,92 +1,20 @@
+//Dragon v0.1 Alpha
+//By Snow
+
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
-#include "AllVariable.h"
-#include "BattleModel.h"
+#include <string>
+#include <list>
+#include "include/allvariables.h"
+#include "include/register.h"
 
-std::string Player_Job_List[4] = {"剑士", "弓箭手", "魔法师", "格斗家"};
-int Random_Number(int Number_Min, int Number_Max);//定义随机数生成模块
-int Point(std::string Player_Job);//定义玩家能力值分配函数
-char Battle(std::string Player_Name);
-int Player_Point;
+bool Player_State = false;
 
-using namespace std;
-
-int main()//主函数
+int main()
 {
-
-    cout << "Welcome to the Dragon's World!" << endl;
-    cout << "请输入你的姓名" << endl;
-    cin >> Player_Name;
-    Player_Level = 1;
-    cout << "你好" << Player_Name << endl;
-    cout << "请选择你的职业" << endl;
-    cout << "|" << Player_Job_List[0] << "|" << Player_Job_List[1] << "|" << Player_Job_List[2] << "|"
-         << Player_Job_List[3] << "|" << endl;
-    cin >> Player_Job;
-    cout << "好的" << "，" << Player_Job << " " << Player_Name << endl;
-    Player_Point = Point(Player_Job);
-    cout << Player_Name << ":" << endl << "|生命: " << Player_Health << "|魔力: " << Player_Magic << endl << "|物理攻击:"
-         << Player_Attack_Physic << "|法术攻击:" << Player_Attack_Magic << endl << "|物理防御:" << Player_Defense_Physic
-         << "|魔法防御:" << Player_Defense_Magic << endl << "|速度: " << Player_Speed << "｜等级: " << Player_Level << endl;
-    int Test;
-    Test= Monster_Battle(Player_Level);
-    cout <<Test << endl;
-    return 0;
-
-}
-
-int Random_Number(int Number_Min, int Number_Max)//随机数生成模块
-{
-    unsigned seed;
-    int Random_Number;
-    seed = time(0);
-    srand(seed);
-    Random_Number = rand() % Number_Max + Number_Min;
-    return Random_Number;
-}
-
-int Point(std::string Player_Job) //玩家能力分配模块
-{
-    if (Player_Job == Player_Job_List[0])//剑士能力值
+    cout << "Welcome to Dragon's World!" << endl;
+    if (Player_State==false)
     {
-        Player_Attack_Physic = 20;
-        Player_Attack_Magic = 10;
-        Player_Defense_Physic = 12;
-        Player_Defense_Magic = 8;
-        Player_Speed = 10;
-        Player_Speed = 15;
-        Player_Health = 20;
-        Player_Magic = 10;
-    } else if (Player_Job == Player_Job_List[1])//弓箭手能力值
-    {
-        Player_Attack_Physic = 15;
-        Player_Attack_Magic = 15;
-        Player_Defense_Physic = 7;
-        Player_Defense_Magic = 7;
-        Player_Speed = 10;
-        Player_Speed = 20;
-        Player_Health = 15;
-        Player_Magic = 20;
-    } else if (Player_Job == Player_Job_List[2])//魔法师能力值
-    {
-        Player_Attack_Physic = 7;
-        Player_Attack_Magic = 25;
-        Player_Defense_Physic = 8;
-        Player_Defense_Magic = 15;
-        Player_Speed = 15;
-        Player_Health = 15;
-        Player_Magic = 30;
-    } else //格斗家能力值
-    {
-        Player_Attack_Physic = 25;
-        Player_Attack_Magic = 5;
-        Player_Defense_Physic = 20;
-        Player_Defense_Magic = 10;
-        Player_Speed = 10;
-        Player_Health = 30;
-        Player_Magic = 5;
+        Register();
+        cout<<"返回主函数"<<endl;
     }
-    return 0;
 }
-

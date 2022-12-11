@@ -142,32 +142,32 @@ Dragon/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/build
 .PHONY : Dragon/fast
 
-BattleModel.o: BattleModel.cpp.o
+library/register.o: library/register.cpp.o
 
-.PHONY : BattleModel.o
+.PHONY : library/register.o
 
 # target to build an object file
-BattleModel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/BattleModel.cpp.o
-.PHONY : BattleModel.cpp.o
+library/register.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/library/register.cpp.o
+.PHONY : library/register.cpp.o
 
-BattleModel.i: BattleModel.cpp.i
+library/register.i: library/register.cpp.i
 
-.PHONY : BattleModel.i
+.PHONY : library/register.i
 
 # target to preprocess a source file
-BattleModel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/BattleModel.cpp.i
-.PHONY : BattleModel.cpp.i
+library/register.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/library/register.cpp.i
+.PHONY : library/register.cpp.i
 
-BattleModel.s: BattleModel.cpp.s
+library/register.s: library/register.cpp.s
 
-.PHONY : BattleModel.s
+.PHONY : library/register.s
 
 # target to generate assembly for a file
-BattleModel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/BattleModel.cpp.s
-.PHONY : BattleModel.cpp.s
+library/register.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/library/register.cpp.s
+.PHONY : library/register.cpp.s
 
 main.o: main.cpp.o
 
@@ -205,9 +205,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Dragon"
-	@echo "... BattleModel.o"
-	@echo "... BattleModel.i"
-	@echo "... BattleModel.s"
+	@echo "... library/register.o"
+	@echo "... library/register.i"
+	@echo "... library/register.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

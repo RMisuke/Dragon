@@ -89,29 +89,29 @@ CMakeFiles/Dragon.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dragon.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Snow/CLionProjects/Dragon/main.cpp -o CMakeFiles/Dragon.dir/main.cpp.s
 
-CMakeFiles/Dragon.dir/BattleModel.cpp.o: CMakeFiles/Dragon.dir/flags.make
-CMakeFiles/Dragon.dir/BattleModel.cpp.o: ../BattleModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Snow/CLionProjects/Dragon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Dragon.dir/BattleModel.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dragon.dir/BattleModel.cpp.o -c /Users/Snow/CLionProjects/Dragon/BattleModel.cpp
+CMakeFiles/Dragon.dir/library/register.cpp.o: CMakeFiles/Dragon.dir/flags.make
+CMakeFiles/Dragon.dir/library/register.cpp.o: ../library/register.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Snow/CLionProjects/Dragon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Dragon.dir/library/register.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dragon.dir/library/register.cpp.o -c /Users/Snow/CLionProjects/Dragon/library/register.cpp
 
-CMakeFiles/Dragon.dir/BattleModel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dragon.dir/BattleModel.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Snow/CLionProjects/Dragon/BattleModel.cpp > CMakeFiles/Dragon.dir/BattleModel.cpp.i
+CMakeFiles/Dragon.dir/library/register.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dragon.dir/library/register.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Snow/CLionProjects/Dragon/library/register.cpp > CMakeFiles/Dragon.dir/library/register.cpp.i
 
-CMakeFiles/Dragon.dir/BattleModel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dragon.dir/BattleModel.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Snow/CLionProjects/Dragon/BattleModel.cpp -o CMakeFiles/Dragon.dir/BattleModel.cpp.s
+CMakeFiles/Dragon.dir/library/register.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dragon.dir/library/register.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Snow/CLionProjects/Dragon/library/register.cpp -o CMakeFiles/Dragon.dir/library/register.cpp.s
 
 # Object files for target Dragon
 Dragon_OBJECTS = \
 "CMakeFiles/Dragon.dir/main.cpp.o" \
-"CMakeFiles/Dragon.dir/BattleModel.cpp.o"
+"CMakeFiles/Dragon.dir/library/register.cpp.o"
 
 # External object files for target Dragon
 Dragon_EXTERNAL_OBJECTS =
 
 Dragon: CMakeFiles/Dragon.dir/main.cpp.o
-Dragon: CMakeFiles/Dragon.dir/BattleModel.cpp.o
+Dragon: CMakeFiles/Dragon.dir/library/register.cpp.o
 Dragon: CMakeFiles/Dragon.dir/build.make
 Dragon: CMakeFiles/Dragon.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Snow/CLionProjects/Dragon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Dragon"
