@@ -6,9 +6,10 @@
 #include <string>
 #include "register.h"
 #include "allvariables.h"
+#include "data_operate.h"
 
-string Player_Job_List [4] {"剑士","弓箭手","魔法师","狂战士"} ;
 //初始化玩家数值
+string Player_Name = "None";
 int Player_HP = 1;
 int Player_MP = 1;
 int Player_PA = 1;
@@ -19,8 +20,9 @@ int Player_SD = 1;
 int Player_MY = 10;
 int Player_EXP = 0;
 int Player_Level = 1;
-string Player_Name = "None";
 string Player_Job = "None";
+
+string Player_Job_List [4] {"剑士","弓箭手","魔法师","狂战士"} ;
 bool Point_Return= false;
 //定义函数
 void Player_Point();
@@ -40,11 +42,12 @@ void Register()//注册函数段
     cout<<Player_Name<<"你选择了: "<<Player_Job<<endl
     <<"｜等级："<<Player_Level<<"｜金钱："<<Player_MY<<endl
     <<"｜生命："<<Player_HP<<"｜法力："<<Player_MP<<endl
-    <<"｜玩家速度："<<Player_SD<<endl
+    <<"｜速度："<<Player_SD<<"｜经验值："<<Player_EXP<<endl
     <<"｜物理攻击："<<Player_PA<<"|法术攻击："<<Player_MA<<endl
     <<"｜物理防御："<<Player_PD<<"|法术防御："<<Player_MD<<endl;
     cout<<"注册完毕!"<<endl;
-    bool Player_State =true;
+    Save_Player_Data();
+    //bool Player_State =true;
 }
 
 void Job_Choose()
@@ -65,6 +68,8 @@ void Player_Point()
          Player_PD = 15;
          Player_MD = 10;
          Player_SD = 10;
+         Player_Level = 1;
+         Player_MY = 10;
          Point_Return = true;
     }
     else if (Player_Job == Player_Job_List[1])//弓箭手基础数值设置
@@ -76,6 +81,8 @@ void Player_Point()
          Player_PD = 10;
          Player_MD = 10;
          Player_SD = 20;
+         Player_Level = 1;
+         Player_MY = 10;
          Point_Return = true;
     }
     else if (Player_Job == Player_Job_List[2])//魔法师基础数值设置
@@ -87,6 +94,8 @@ void Player_Point()
          Player_PD = 10;
          Player_MD = 15;
          Player_SD = 10;
+         Player_Level = 1;
+         Player_MY = 10;
          Point_Return = true;
     }
     else if (Player_Job == Player_Job_List[3])//狂战士基础数值设置
@@ -98,6 +107,8 @@ void Player_Point()
          Player_PD = 20;
          Player_MD = 7;
          Player_SD = 5;
+         Player_Level = 1;
+         Player_MY = 10;
          Point_Return = true;
     }
     else

@@ -18,7 +18,7 @@ Player_MA,Player_PD,Player_MD,Player_SD,Player_MY,Player_EXP;
  EXP:玩家经验
  */
 
-extern bool Player_State ;//玩家注册状态
+//extern bool Player_State ;//玩家注册状态
 
 extern int Number_Max,Number_Min,Number;//最大，最小数，用于调用随机函数
 

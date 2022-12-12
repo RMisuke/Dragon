@@ -169,87 +169,6 @@ include/data_operate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/data_operate.cpp.s
 .PHONY : include/data_operate.cpp.s
 
-include/json_reader.o: include/json_reader.cpp.o
-
-.PHONY : include/json_reader.o
-
-# target to build an object file
-include/json_reader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/json_reader.cpp.o
-.PHONY : include/json_reader.cpp.o
-
-include/json_reader.i: include/json_reader.cpp.i
-
-.PHONY : include/json_reader.i
-
-# target to preprocess a source file
-include/json_reader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/json_reader.cpp.i
-.PHONY : include/json_reader.cpp.i
-
-include/json_reader.s: include/json_reader.cpp.s
-
-.PHONY : include/json_reader.s
-
-# target to generate assembly for a file
-include/json_reader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/json_reader.cpp.s
-.PHONY : include/json_reader.cpp.s
-
-include/json_value.o: include/json_value.cpp.o
-
-.PHONY : include/json_value.o
-
-# target to build an object file
-include/json_value.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/json_value.cpp.o
-.PHONY : include/json_value.cpp.o
-
-include/json_value.i: include/json_value.cpp.i
-
-.PHONY : include/json_value.i
-
-# target to preprocess a source file
-include/json_value.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/json_value.cpp.i
-.PHONY : include/json_value.cpp.i
-
-include/json_value.s: include/json_value.cpp.s
-
-.PHONY : include/json_value.s
-
-# target to generate assembly for a file
-include/json_value.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/json_value.cpp.s
-.PHONY : include/json_value.cpp.s
-
-include/json_writer.o: include/json_writer.cpp.o
-
-.PHONY : include/json_writer.o
-
-# target to build an object file
-include/json_writer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/json_writer.cpp.o
-.PHONY : include/json_writer.cpp.o
-
-include/json_writer.i: include/json_writer.cpp.i
-
-.PHONY : include/json_writer.i
-
-# target to preprocess a source file
-include/json_writer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/json_writer.cpp.i
-.PHONY : include/json_writer.cpp.i
-
-include/json_writer.s: include/json_writer.cpp.s
-
-.PHONY : include/json_writer.s
-
-# target to generate assembly for a file
-include/json_writer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dragon.dir/build.make CMakeFiles/Dragon.dir/include/json_writer.cpp.s
-.PHONY : include/json_writer.cpp.s
-
 include/random.o: include/random.cpp.o
 
 .PHONY : include/random.o
@@ -343,15 +262,6 @@ help:
 	@echo "... include/data_operate.o"
 	@echo "... include/data_operate.i"
 	@echo "... include/data_operate.s"
-	@echo "... include/json_reader.o"
-	@echo "... include/json_reader.i"
-	@echo "... include/json_reader.s"
-	@echo "... include/json_value.o"
-	@echo "... include/json_value.i"
-	@echo "... include/json_value.s"
-	@echo "... include/json_writer.o"
-	@echo "... include/json_writer.i"
-	@echo "... include/json_writer.s"
 	@echo "... include/random.o"
 	@echo "... include/random.i"
 	@echo "... include/random.s"

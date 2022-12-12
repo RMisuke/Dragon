@@ -5,78 +5,44 @@ CMakeFiles/Dragon.dir/include/data_operate.cpp.o
  /Users/Snow/CLionProjects/Dragon/include/allvariables.h
  /Users/Snow/CLionProjects/Dragon/include/data_operate.cpp
  /Users/Snow/CLionProjects/Dragon/include/data_operate.h
- /Users/Snow/CLionProjects/Dragon/include/json.h
- /Users/Snow/CLionProjects/Dragon/include/json/allocator.h
- /Users/Snow/CLionProjects/Dragon/include/json/config.h
- /Users/Snow/CLionProjects/Dragon/include/json/forwards.h
- /Users/Snow/CLionProjects/Dragon/include/json/json_features.h
- /Users/Snow/CLionProjects/Dragon/include/json/reader.h
- /Users/Snow/CLionProjects/Dragon/include/json/value.h
- /Users/Snow/CLionProjects/Dragon/include/json/version.h
- /Users/Snow/CLionProjects/Dragon/include/json/writer.h
-CMakeFiles/Dragon.dir/include/init_all.cpp.o
- /Users/Snow/CLionProjects/Dragon/include/allvariables.h
- /Users/Snow/CLionProjects/Dragon/include/init_all.cpp
- /Users/Snow/CLionProjects/Dragon/include/init_all.h
- /Users/Snow/CLionProjects/Dragon/include/json.h
- /Users/Snow/CLionProjects/Dragon/include/json/allocator.h
- /Users/Snow/CLionProjects/Dragon/include/json/config.h
- /Users/Snow/CLionProjects/Dragon/include/json/forwards.h
- /Users/Snow/CLionProjects/Dragon/include/json/json_features.h
- /Users/Snow/CLionProjects/Dragon/include/json/reader.h
- /Users/Snow/CLionProjects/Dragon/include/json/value.h
- /Users/Snow/CLionProjects/Dragon/include/json/version.h
- /Users/Snow/CLionProjects/Dragon/include/json/writer.h
-CMakeFiles/Dragon.dir/include/json_reader.cpp.o
- /Users/Snow/CLionProjects/Dragon/include/json/allocator.h
- /Users/Snow/CLionProjects/Dragon/include/json/assertions.h
- /Users/Snow/CLionProjects/Dragon/include/json/config.h
- /Users/Snow/CLionProjects/Dragon/include/json/forwards.h
- /Users/Snow/CLionProjects/Dragon/include/json/json_features.h
- /Users/Snow/CLionProjects/Dragon/include/json/reader.h
- /Users/Snow/CLionProjects/Dragon/include/json/value.h
- /Users/Snow/CLionProjects/Dragon/include/json/version.h
- /Users/Snow/CLionProjects/Dragon/include/json_reader.cpp
- /Users/Snow/CLionProjects/Dragon/include/json_tool.h
-CMakeFiles/Dragon.dir/include/json_value.cpp.o
- /Users/Snow/CLionProjects/Dragon/include/json/allocator.h
- /Users/Snow/CLionProjects/Dragon/include/json/assertions.h
- /Users/Snow/CLionProjects/Dragon/include/json/config.h
- /Users/Snow/CLionProjects/Dragon/include/json/forwards.h
- /Users/Snow/CLionProjects/Dragon/include/json/value.h
- /Users/Snow/CLionProjects/Dragon/include/json/version.h
- /Users/Snow/CLionProjects/Dragon/include/json/writer.h
- /Users/Snow/CLionProjects/Dragon/include/json_value.cpp
- /Users/Snow/CLionProjects/Dragon/include/json_valueiterator.inl
-CMakeFiles/Dragon.dir/include/json_writer.cpp.o
- /Users/Snow/CLionProjects/Dragon/include/json/allocator.h
- /Users/Snow/CLionProjects/Dragon/include/json/config.h
- /Users/Snow/CLionProjects/Dragon/include/json/forwards.h
- /Users/Snow/CLionProjects/Dragon/include/json/value.h
- /Users/Snow/CLionProjects/Dragon/include/json/version.h
- /Users/Snow/CLionProjects/Dragon/include/json/writer.h
- /Users/Snow/CLionProjects/Dragon/include/json_tool.h
- /Users/Snow/CLionProjects/Dragon/include/json_writer.cpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_conversion.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_declare.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_encoding.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_exception.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_iterator.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_parser.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_serializer.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_stream.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_token.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_value.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_wrapper.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/json.hpp
 CMakeFiles/Dragon.dir/include/random.cpp.o
  /Users/Snow/CLionProjects/Dragon/include/allvariables.h
  /Users/Snow/CLionProjects/Dragon/include/random.cpp
  /Users/Snow/CLionProjects/Dragon/include/random.h
 CMakeFiles/Dragon.dir/include/register.cpp.o
  /Users/Snow/CLionProjects/Dragon/include/allvariables.h
+ /Users/Snow/CLionProjects/Dragon/include/data_operate.h
  /Users/Snow/CLionProjects/Dragon/include/register.cpp
  /Users/Snow/CLionProjects/Dragon/include/register.h
 CMakeFiles/Dragon.dir/main.cpp.o
  /Users/Snow/CLionProjects/Dragon/include/allvariables.h
  /Users/Snow/CLionProjects/Dragon/include/data_operate.h
- /Users/Snow/CLionProjects/Dragon/include/json.h
- /Users/Snow/CLionProjects/Dragon/include/json/allocator.h
- /Users/Snow/CLionProjects/Dragon/include/json/config.h
- /Users/Snow/CLionProjects/Dragon/include/json/forwards.h
- /Users/Snow/CLionProjects/Dragon/include/json/json_features.h
- /Users/Snow/CLionProjects/Dragon/include/json/reader.h
- /Users/Snow/CLionProjects/Dragon/include/json/value.h
- /Users/Snow/CLionProjects/Dragon/include/json/version.h
- /Users/Snow/CLionProjects/Dragon/include/json/writer.h
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_conversion.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_declare.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_encoding.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_exception.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_iterator.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_parser.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_serializer.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_stream.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_token.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_value.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/configor_wrapper.hpp
+ /Users/Snow/CLionProjects/Dragon/include/jsonxx/json.hpp
  /Users/Snow/CLionProjects/Dragon/include/random.h
  /Users/Snow/CLionProjects/Dragon/include/register.h
  /Users/Snow/CLionProjects/Dragon/main.cpp

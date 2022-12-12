@@ -1,8 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Dragon.dir/include/data_operate.cpp.o"
-  "CMakeFiles/Dragon.dir/include/json_reader.cpp.o"
-  "CMakeFiles/Dragon.dir/include/json_value.cpp.o"
-  "CMakeFiles/Dragon.dir/include/json_writer.cpp.o"
   "CMakeFiles/Dragon.dir/include/random.cpp.o"
   "CMakeFiles/Dragon.dir/include/register.cpp.o"
   "CMakeFiles/Dragon.dir/main.cpp.o"
